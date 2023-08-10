@@ -41,6 +41,21 @@ document.body.appendChild(box);
 setTimeout(function() {
   box.style.transform = 'translate(-50%, -50%) scale(1)';
 }, 0);
+    setTimeout(() => {
+      let messages = [
+        '  ___          _      _                  _   ___ ',
+        ' | _ ) __ _ __| |____| |___  ___ _ _    /_\\ |_ _|',
+        ' | _ \\/ _` / _| / / _` / _ \\/ _ \\ \'_|  / _ \\ | | ',
+        ' |___/\\__,_\\__|_\\_\\__,_\\___/\\___/_|   /_/ \\_\\___|',
+        '                                                 '
+      ];
+    
+      messages.forEach((message, index) => {
+        setTimeout(() => {
+          console.log(message);
+        }, 20 * index);
+      });
+    }, 1); 
 var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
 titleBar.onmousedown = function(e) {
   iframe.style.pointerEvents = 'none';
