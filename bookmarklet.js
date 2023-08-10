@@ -27,6 +27,13 @@ titleBar.style.zIndex = '999999';
 titleBar.style.left = '4px';
 titleBar.textContent = 'Backdoor AI';
 titleBar.style.cursor = 'move';
+  fetch("https://backdoor-ai-authentication.l4ctose.repl.co/pings")
+    .then(response => response.text())
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
+  setTimeout(pingServer, 7000);
+}
+setTimeout(pingServer, 3000);
 var iframe = document.createElement('iframe');
 iframe.style.width = '100%';
 iframe.style.height = 'calc(100% - 20px)';
