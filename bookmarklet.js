@@ -27,7 +27,7 @@ titleBar.style.zIndex = '999999';
 titleBar.style.left = '4px';
 titleBar.textContent = 'Backdoor AI';
 titleBar.style.cursor = 'move';
-  fetch("https://backdoor-ai-authentication.l4ctose.repl.co/pings")
+  fetch("https://backdoor-ai-authentication.l4ctose.repl.co/ping")
     .then(response => response.text())
     .then(data => console.log(data))
     .catch(error => console.error(error));
