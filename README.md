@@ -1,6 +1,6 @@
-# Backdoor AI Open Source
-This version is different than our closed source version to protect our code from being copied. If you don't trust us, that's OK. You can just use this version instead. <br>
+# Backdoor AI - Open Source
+This version is not the same as our private one. We’ve made changes to keep our code safe. But if you’re worried, it’s fine. You can use this free version.<br>
 <br>
-To use our open source version, go to bookmarklet.js and install it as a bookmarklet, or execute in inspect element. <br>
+To start using our free version, find the file named ‘bookmarklet.js’ and set it up as a bookmark, or run it through the inspect element tool.<br>
 <br>
-We recommend using our official version at https://backdoor.best/
+While this open-source UI gives you access to our tools, you might find it less appealing visually. If you’re interested in a smoother and more attractive experience, we recommend using our official version at backdoor.best.
